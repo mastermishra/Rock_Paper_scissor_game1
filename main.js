@@ -41,10 +41,10 @@
       playGame('rock');
     });
   
-  // document.querySelector('.js-paper-button')
-  //   .addEventListener('click', () => {
-  //     playGame('paper');
-  //   });
+  document.querySelector('.js-paper-button')
+    .addEventListener('click', () => {
+      playGame('paper');
+    });
   
   // document.querySelector('.js-scissors-button')
   //   .addEventListener('click', () => {
