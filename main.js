@@ -46,10 +46,10 @@
       playGame('paper');
     });
   
-  // document.querySelector('.js-scissors-button')
-  //   .addEventListener('click', () => {
-  //     playGame('scissors');
-  //   });
+  document.querySelector('.js-scissors-button')
+    .addEventListener('click', () => {
+      playGame('scissors');
+    });
   
   document.body.addEventListener('keydown', (event) => {
     if (event.key === 'r') {
